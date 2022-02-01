@@ -1,2 +1,2 @@
 # owu-dec-2021
-[**JavaScript Complex course**](https://owu.com.ua/)
+[**JavaScript Complex Course**](https://owu.com.ua/)
