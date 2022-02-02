@@ -1,5 +1,6 @@
 // - Створити змінні.Присвоїти кожному з них значення:
 //'hello', 'owu', 'com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
+console.log(' ===== homework tasks: ====== ');
 
 const varArr = ['hello', 'owu', 'com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false];
 let [var1, var2, var3, var4, var5, var6, var7, var8, var9, var10, var11, var12, var13] = varArr;
