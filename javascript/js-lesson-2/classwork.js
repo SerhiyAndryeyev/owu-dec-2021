@@ -24,11 +24,9 @@ let appart = 25;
 
 if (appart >= 1 && appart <= 20) {
   console.log('це 1й підїзд');
-}
-if (appart > 20 && appart <= 48) {
+} else if (appart > 20 && appart <= 48) {
   console.log('це 2й підїзд');
-}
-if (appart > 48 && appart <= 90) {
+} else if (appart > 48 && appart <= 90) {
   console.log('це 13й підїзд');
 }
 
@@ -60,7 +58,6 @@ switch (typeof x) {
 
   default:
     console.log('its something else');
-    break;
 }
 
 // - Задача-гра "чи ми йдемо сьогодні в OKTEN на навчання?".
