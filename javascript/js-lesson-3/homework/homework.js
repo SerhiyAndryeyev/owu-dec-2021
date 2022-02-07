@@ -168,7 +168,7 @@ for (let i = 1; i <= 20; i++) { // поставив 20 замість 100 бо �
 document.write('<div class="task"><em> ----- Task-18:<em></div>');
 console.log('Task-18 -----------');
 
-for (let i = 1; i <= 100; i + 2) {
+for (let i = 1; i <= 100; i += 2) {
   document.write(`<div>index # ${i}</div>`);
   console.log(i);
 }
@@ -178,7 +178,7 @@ for (let i = 1; i <= 100; i + 2) {
 document.write('<div class="task"><em> ----- Task-19:<em></div>');
 console.log('Task-19 -----------');
 
-for (let i = 0; i <= 100; i + 2) {
+for (let i = 0; i <= 100; i += 2) {
   document.write(`<div>index # ${i}</div>`);
   console.log(i);
 }
@@ -188,7 +188,7 @@ for (let i = 0; i <= 100; i + 2) {
 document.write('<div class="task"><em> ----- Task-20:<em></div>');
 console.log('Task-20 -----------');
 
-for (let i = 1; i <= 100; i + 2) {
+for (let i = 1; i <= 100; i += 2) {
   document.write(`<div>index # ${i}</div>`);
   console.log(i);
 }
