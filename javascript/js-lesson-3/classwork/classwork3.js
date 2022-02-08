@@ -201,7 +201,7 @@ let simpsons = [
   },
 ];
 
-for (key of simpsons) {
+for (const key of simpsons) {
   document.write(`<div>NAME-${key.name} SURNAME-${key.surname} AGE-${key.age} INFO-${key.info} <img src=${key.photo} alt=""></div>`);
   document.write(`<div><h2>${key.name} ${key.surname}. age is - ${key.age}</h2>`);
   document.write(`<p>${key.info}</p><img src=${key.photo} alt=""></div>`);
@@ -236,7 +236,7 @@ let products = [
   },
 ];
 
-for (key of products) {
+for (const key of products) {
   document.write('<div class="product-card">');
   document.write(`<h3 class="product-title">${key.title}. Price - ${key.price}</h3>`);
   document.write(`<img src=${key.image} alt="" class="product-image"></div>`);
