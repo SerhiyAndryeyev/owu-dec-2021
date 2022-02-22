@@ -1,0 +1,63 @@
+body{
+  background-color:rgb(247, 240, 231);
+  border: 2px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  min-width: 100px;
+  min-height: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.task {
+  min-width: 100px;
+  min-height: 20px;
+  background-color:bisque;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+padding: 5px 10px;
+margin: 0;
+text-align: center;
+}
+
+li {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+li:before {
+    content: '\2620';
+    padding-right: 5px;
+}
+
+h1{
+  width: fit-content;
+  position: relative;
+  animation: h1move 5s 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes h1move {
+  from {left: 0px;}
+  to {left: 250px;}
+}
+
+.red {
+  background:red;
+}
+
+.blue {
+  background:blue;
+}
+
+.red-text {
+  color:red;
+}
