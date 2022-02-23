@@ -1,0 +1,41 @@
+body{
+  background-color:rgb(247, 240, 231);
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  min-width: 100px;
+  min-height: 40px;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 40px;
+}
+
+p {
+padding: 5px 10px;
+margin: 0;
+}
+
+ul {
+  margin: 0;
+  border-bottom: 1px solid black;
+  padding-inline-start: 0;
+  text-align: center;
+}
+
+li {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+li:before {
+    content: '\2713';
+    padding-right: 5px;
+}
+
+h1{
+    text-align: center;
+    font-size: 26px;
+}
