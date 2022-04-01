@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(247, 240, 231);
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  min-width: 100px;
+  min-height: 40px;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 40px;
+}
+
+p {
+  padding: 5px 10px;
+  margin: 0;
+}
+
+ul {
+  padding-inline-start: 0;
+  text-align: center;
+}
+
+li {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+}
+
+#menu ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 20px;
+  display: none;
+}
+
+#menu {
+  cursor: pointer;
+}
+
+#menu::before {
+  content: "⬇ ";
+  font-size: 80%;
+  color: black;
+}
+
+#menu.open::before {
+  content: "⬆ ";
+}
+
+#menu.open ul {
+  display: block;
+}

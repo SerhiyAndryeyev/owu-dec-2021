@@ -1,0 +1,90 @@
+body{
+  background-color:rgb(247, 240, 231);
+  border: 2px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  min-width: 100px;
+  min-height: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.task {
+  min-width: 100px;
+  min-height: 20px;
+  background-color:bisque;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+padding: 5px 10px;
+margin: 0;
+}
+
+li {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+li:before {
+    content: '\2620';
+    padding-right: 5px;
+}
+
+h1{
+  width: fit-content;
+  position: relative;
+  animation: h1move 5s 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+h2{
+  margin: auto 5px auto 5px;
+}
+
+@keyframes h1move {
+  from {left: 0px;}
+  to {left: 250px;}
+}
+
+.task3 {
+  border: 3px solid red;
+  margin: 5px;
+
+}
+
+.divTitle {
+  border: 3px solid darkblue;
+  margin: 5px;
+}
+
+.divMonthDuration {
+  border: 3px solid darkblue;
+  margin: 5px;
+  width: 30%;
+  float:left;
+}
+
+.divHourDuration {
+  border: 3px solid darkblue;
+  margin: 5px;
+  width: 62%;
+  float:left;
+}
+
+.divModules {
+  border: 3px solid darkblue;
+  margin: 5px;
+  clear:both;
+}
+
+.divModulesEl {
+  border: 3px solid darkblue;
+  margin: 5px;
+}
